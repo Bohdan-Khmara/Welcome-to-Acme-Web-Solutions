@@ -60,6 +60,32 @@ header p{
     color: var(--secondary-color);
 }
 
+/*MAIN*/
+
+.main_section-first{
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+.main_section-first h2{
+    padding: 25px 0 25px 0;
+    color: var(--secondary-color);
+}
+
+.main_section-first-article{
+    width: 49%;
+    display: inline-block;
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.main_section-second-article{
+    width: 49%;
+    display: inline-block;
+    text-align: justify;
+    padding: 0 10px 50px 0;
+}
+
 
 
 
