@@ -9,7 +9,7 @@ body{
     --secondary-color: #333;
     --third-color: #2690d4;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.1em;
+    font-size: 16px;
     line-height: 1.5;
 }
 
@@ -60,7 +60,7 @@ header p{
     color: var(--secondary-color);
 }
 
-/*MAIN*/
+/*MAIN SECTION 1*/
 
 .main_section-first{
     background-color: var(--primary-color);
@@ -86,6 +86,36 @@ header p{
     padding: 0 10px 50px 0;
 }
 
+/*MAIN SECTION 2*/
+
+.main_section-second{
+    background-color: var(--secondary-color);
+    text-align: center;
+    padding: 35px 0 35px 0;
+}
+
+.main_card h2{
+    padding: 30px 0 30px 0;
+    font-size: 20px;
+}
+
+.main_card p{
+    padding: 0 25px 40px 25px;
+}
+
+.main_card{
+    height: auto;
+    width: 260px;
+    display: inline-block;
+    background-color: var(--primary-color);
+    text-align: center;
+    margin-right: 15px;
+
+}
+.main_card img{
+    height: 180px;
+    width: 260px;
+}
 
 
 
