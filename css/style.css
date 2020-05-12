@@ -175,5 +175,27 @@ header p{
 }
 
 .footer{
+    height: 100px;
+    text-align: center;
     background-color: black;
+}
+
+.footer-col1{
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    padding: 35px 0 35px 0;
+    color: var(--primary-color);
+}
+
+.footer-col2{
+    display: inline-block;
+    height: 100%;
+    width: 50%;
+    padding: 35px 0 35px 0;
+    color: var(--primary-color);
+}
+
+.footer-col2 span{
+    color: var(--third-color);
 }
